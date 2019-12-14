@@ -1,5 +1,0 @@
-hi there ...
-
-this is just for testing the git
-
-I'll delete that soon
