@@ -1,13 +1,15 @@
 # Head First
 
 room = ["Vijay", "Ganesh", "Jidhu", "Thanos", "Vicky"]
-movies = ["The Holy Grail", 1975,
+movies = ["The Parasite", 2019,
          "The Life of Brian", 1979,
-         "The Meaning of Life", 1983]
-fav_movies = ["The Holy Grail", "The Life of Brian"]
+         "The Meaning of Life", 1983,
+         "1917", 2019]
+fav_movies = ["The Parasite", "The Life of Brian"]
 
 print(fav_movies[0])
 print(fav_movies[1])
+print(fav_movies)
 print(room)
 print(movies)
 print(len(room))
@@ -33,4 +35,3 @@ room.insert(1, 1995) #or room = ["Vijay",1995,                              "Gan
 room.insert(4, 1996)
 room.append(1996)
 print(room)
-
