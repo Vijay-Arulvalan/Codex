@@ -12,7 +12,7 @@ print("here is the original list order again: ")
 print(places)
 
 print("Here is the reverse order of sorted: ")
-print(sorted(places, reverse=True))
+print(sorted(places, reverse=True)) #descending in sorted() function
 
 print(places)
 
