@@ -1,6 +1,7 @@
 foods = ['pizza', 'cake', 'salad', 'burger', 'macroni']
 
-friend_food = foods[:] #to copy the whole list of foods to friend_food by slicing [:] it will cut from start till end of the list.
+friend_food = foods[:]
+#to copy the whole list of foods to friend_food by slicing [:] it will cut from start till end of the list.
 #if we not slice and copy the list then it will consider both as same list if we copy like this (foods = friend_food)
 
 #to prove that we have two list we can add item to each list
