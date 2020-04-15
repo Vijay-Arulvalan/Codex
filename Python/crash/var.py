@@ -4,7 +4,6 @@ print(message)
 message = ("Welcome to the World")
 print(message)
 
-
 simple_message = "This is a sting"
 print(simple_messages)
 

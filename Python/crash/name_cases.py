@@ -12,7 +12,7 @@ name = "Steve Jobs"
 
 message = "\n\t'Stay hungry, Stay foolish'" "\n\t'Keep looking don't settle'"
 
-print(name +" " "once said" " " + message )
+print(name + " once said " + message)
 #
 #2.7
 name = " Vijay Arulvalan "

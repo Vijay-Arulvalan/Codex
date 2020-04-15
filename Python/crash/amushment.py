@@ -7,7 +7,7 @@ elif age <18:
 else:
     print("your admission cost is $10.")
 
-#Another methos
+#Another methods
 
 age = 17
 
