@@ -15,7 +15,7 @@ print(alien_0)
 
 #deleting
 del alien_0['points']
-print("The points is deleted " ,alien_0)
+print(alien_0) #here the points is deleted permanently
 
 # Using Empty dictionary
 
