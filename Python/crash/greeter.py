@@ -5,10 +5,11 @@ def greet_user():
 
 greet_user()
 
+#the above one ask a input from the user after running the program
 #another program method:
 
-def greet(username):
+def greet(username): #username is a parameter
     """Display a simple greeting!"""
     print("\n Hello, " + username.title())
 
-greet('vijay')
+greet('vijay') #vijay is a argument

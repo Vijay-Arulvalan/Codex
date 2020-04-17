@@ -7,7 +7,7 @@ def get_formatted_name(first_name, last_name):
 musician = get_formatted_name('vijay', 'arulvalan')
 print(musician)
 
-#######
+##############################################
 
 def get_full_name(first_name, last_name,  middle_name=''): #to make a middle_name optional
     """Display the full name of the person"""

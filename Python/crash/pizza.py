@@ -1,6 +1,6 @@
-pizzas = ['cheese', 'margarita', 'pepper corn']
-
-for pizza in pizzas:
-#    print(pizza.title())
-    print("I like " + pizza.title() + " pizza")
-print("\nI really like to eat pizza\nits really hot here and i feel its tasty\nI really love pizza")
+#its a module i create for modules_pizza.py
+def make_pizza(size, *toppings):
+    """To input two parameter in the above function"""
+    print("Making a " + str(size) + "-inch of pizza with the following toppings")
+    for topping in toppings:
+        print('- '+ topping)

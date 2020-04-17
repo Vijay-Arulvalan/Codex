@@ -9,6 +9,5 @@ def get_formatted_name(first_name, last_name):
         f_name = input("First name: ")
         l_name = input("Last name: ")
 
-        formatted_name = get_formatted_name(f_name, last_name)
+        formatted_name = get_formatted_name(f_name, l_name)
         print("Hello, " + formatted_name + '!')
-        

@@ -1,4 +1,5 @@
 def describe_pets(animal_type, pet_name): # describe_pets(pet_name, animal_type = 'dog')
+#we can describe one parameter when we declare the function on above code.
     """Display the information of the pets"""
     print("I've animal type " + animal_type + " and the name of that is " +
             pet_name.title() )
