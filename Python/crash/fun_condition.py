@@ -6,6 +6,7 @@ def get_formatted_name(first_name, last_name):
     while True:
         print("Enter your full name: ")
         print("(Enter 'q' to quit at any time)")
+
         f_name = input("First name: ")
         if f_name == 'q':
             break

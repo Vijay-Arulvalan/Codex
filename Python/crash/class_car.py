@@ -42,7 +42,7 @@ print("The car name is " + my_car.model)
 #my_car.update_odometer(44)
 #to create a method for update_odometer
 
-#Modifying the attribute Incrementing an attribute value through a method
+#Modifying the attribute Incrementing an attribute value through a method (way 3)
 #def increment_odometer(self, miles):
 #    """Add a given amount of odometer reading"""
 #    self.odometer_reading += miles

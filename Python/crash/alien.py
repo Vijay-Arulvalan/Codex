@@ -3,7 +3,7 @@ print(alien_color)
 
 alien = 'green'
 
-#
+#methods
 if alien is 'green':
     print('You just earned 5 points')
 
