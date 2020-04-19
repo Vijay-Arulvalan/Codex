@@ -1,4 +1,4 @@
-filename = 'pi_million_digits'
+filename = 'pi_million_digits.txt'
 
 with open(filename) as file_object:
     lines = file_object.readlines()
@@ -12,3 +12,6 @@ if birthday in pi_string:
     print("Your birthday is present on the file")
 else:
     print("Your birthday is not present on the file")
+
+print(pi_string)
+print(len(pi_string))

@@ -5,5 +5,10 @@ with open('pi_digits.txt') as file_object: #whatever we need to do with a file t
     print(contents.rstrip()) #if we want to remove extra line in the end we can use rstrip()
 #“The blank line appears because read() returns an empty string when it reaches the end of the file; this empty string shows up as a blank line.”
 
+###Relative path
 ##to open a file in different path we can use the / to set the file path where the pi_digits is saved:
-#with open('Documents/CodeX/Python/pi_digit.txt') as file_object:
+#with open('Python/pi_digit.txt') as file_object:
+
+###Absolute path
+##To clarify python where it want to look
+#file_path = '/Users/vijay/Documents/Codex/Python/pi_digit.txt'
