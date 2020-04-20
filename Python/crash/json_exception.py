@@ -1,4 +1,4 @@
-# try and except in json method
+# try and except in file and json method:
 
 import json
 
