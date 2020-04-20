@@ -1,3 +1,5 @@
+#using setUp method
+
 import unittest
 from survey import AnonymousSurvey
 
