@@ -1,3 +1,4 @@
+#another function 
 def get_formatted_name(first, last, middle=''):
     """Generate neatly formatted full name"""
     if middle:
